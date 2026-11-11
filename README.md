@@ -1,5 +1,8 @@
 # Omni Browser Harness
 
+[![CI](https://github.com/rianprei/omni-browser-harness/actions/workflows/ci.yml/badge.svg)](https://github.com/rianprei/omni-browser-harness/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 **Browser harness local, gratuito e open source (MIT)**, baseado em Playwright + Chromium. Não usa Browser Use, serviços pagos, tokens de API ou uma conta de automação externa.
 
 ## Recursos
