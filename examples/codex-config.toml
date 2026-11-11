@@ -1,0 +1,5 @@
+[mcp_servers.omni-browser]
+command = "/ABSOLUTE/PATH/omni-browser-harness/.venv/bin/python"
+args = ["-m", "omni_browser.mcp_server"]
+[mcp_servers.omni-browser.env]
+OMNI_BROWSER_ALLOWED_HOSTS = "github.com"

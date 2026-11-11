@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+build/
+dist/
+*.egg-info/
+.env
+.env.*
+!.env.example
+*.png
+*.har
+*.webm
+*.trace
+browser-profile/
+profiles/

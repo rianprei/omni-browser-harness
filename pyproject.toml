@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "omni-browser-harness"
+version = "0.1.0"
+description = "Free local Playwright browser harness with MCP and GitHub repository creation"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "OmniResearch OSS contributors"}]
+dependencies = ["playwright>=1.50,<2"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[project.scripts]
+omni-browser = "omni_browser.cli:main"
+omni-browser-mcp = "omni_browser.mcp_server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
